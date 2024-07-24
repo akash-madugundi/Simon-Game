@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    color: rgb(254, 242, 191);
+    font-size: 48px;
+    font-family: 'Press Start 2P', 'cursive';
+}
+
+.colors{
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-self: center; */
+    /* flex-wrap: wrap;
+    justify-content: center; */
+    /* justify-content: space-around; */
+}
+
+.color{
+    margin: auto;
+    padding: auto;
+    height: 220px;
+    width: 220px;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+
+.generate{
+    opacity: 50%;
+}
+
+/* @keyframes glowing {
+    0% {
+        box-shadow: 0 0 30px #ffffff;
+        opacity: 50%;
+    }
+    100%{
+        opacity: 50%;
+    }
+} */
+
+.click{
+    /* animation: glowing infinite; */
+    box-shadow: 0 0 30px #ffffff;
+    opacity: 50%;
+}
+
+#green{
+    background-color: #008000;
+}
+
+#red{
+    background-color: #ff0000;
+}
+
+#yellow{
+    background-color: #ffff00;
+}
+
+#blue{
+    background-color: #0000ff;
+}
+
+.error{
+    background-color: red;
+}
+
+body{
+    background-color: #011f3f;
+}
+
+button:focus {
+    outline: none;              
+    /* else you get white outline after u restart game */
+}
